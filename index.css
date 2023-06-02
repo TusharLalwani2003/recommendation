@@ -1,0 +1,9 @@
+.horizontal-bar {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+  }

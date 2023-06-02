@@ -341,6 +341,7 @@ if (isset($_POST['clearqueue'])) {
 
 <div class="border-4 rounded-xl m-10">
 	<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
+		<div class="horizontal-bar">User Information</div>
 		<div class="text-center font-black my-6">Enter Your Details</div>
 
 		<div class="text-center my-3">
@@ -431,8 +432,8 @@ if (isset($_POST['clearqueue'])) {
 			</div>
 		</div>
 
-
-		<div class="text-center font-black my-6">Enter About Book</div>
+		<div class="horizontal-bar">Book Information</div>
+		<!-- <div class="text-center font-black my-6">Enter About Book</div> -->
 		<div class="flex flex-wrap justify-center">
 			<div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 grid justify-items-center ">
 				<label for="title">Book Title : </label>
